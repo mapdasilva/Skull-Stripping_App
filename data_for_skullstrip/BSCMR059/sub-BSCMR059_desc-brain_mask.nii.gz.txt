@@ -1,0 +1,3 @@
+sub-BSCMR034_desc-brain_mask.nii.gz
+
+From fMRIPrep Output (anat)
