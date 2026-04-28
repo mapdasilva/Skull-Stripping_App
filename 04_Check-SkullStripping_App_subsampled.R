@@ -94,7 +94,7 @@ ui <- fluidPage(
         "Resolution:",
         choices = c(
           "Native" = "native",
-          "Subsampled (2mm)" = "subsamp"
+          "Subsampled (-subsamp2)" = "subsamp"
         ),
         selected = "subsamp"
       ),
@@ -118,7 +118,7 @@ server <- function(input, output, session) {
     if (input$resolution == "native") {
       "T1w + Brain Mask (Native Resolution)"
     } else {
-      "T1w + Brain Mask (Subsampled 2mm)"
+      "T1w + Brain Mask (-subsamp2)"
     }
   })
   
