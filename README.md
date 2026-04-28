@@ -8,7 +8,7 @@ This toolkit extracts native T1w and brain mask files from fMRIPrep derivatives,
 
 **What it does:**
 - ✅ Copies native T1w and brain mask files from fMRIPrep output
-- ✅ Subsamples images to 2mm resolution (optional, for performance)
+- ✅ Subsamples: Downsamples images by 2x, in this case from 0.5mm to 1.0mm resolution (optional, for performance)
 - ✅ Launches interactive viewer with adjustable mask overlay
 - ✅ Supports exclusion list for known problematic subjects
 
